@@ -1,13 +1,11 @@
-# Claude Command: Commit
+---
+description: This command helps you create well-formatted commits with conventional commit messages and emoji.
+---
 
-This command helps you create well-formatted commits with conventional commit messages and emoji.
+<!-- Some parts of this command are specific to Claude Code,
+especially folder locations, front matter, and argument passing.
+Modify as needed if using with other coding agents. -->
 
-## Usage
-
-To create a commit, just type:
-```
-/git-commit
-```
 
 ## What This Command Does
 
@@ -145,7 +143,7 @@ Example of splitting commits:
 
 ## Important Notes
 
-- Do NOT add Claude co-authorship footer to commits
+- Do NOT add Claude co-authorship footer to commit message
 - If specific files are already staged, the command will only commit those files
 - If no files are staged, it will automatically stage all modified and new files
 - The commit message should be constructed based on the changes detected and the current claude session history
