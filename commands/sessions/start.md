@@ -41,8 +41,11 @@ git ls-file
 
 ## Report
 
-Summarize your understanding of the files and the codebase.
-Make special note of the lessons learnt over the course of implementing this project. You will use this as you work, so note where the LESSONS file can be found and when to consult it.
+Summarize your understanding of the files and the codebase. Make special note of:
+1. any documentation and parts of the codebase related to the session goal
+2. the lessons learnt over the course of implementing this project
+You will use these as you work, so note where this information can be found and when to consult it.
+
 If there are conflicts between the files and the codebase, the codebase will take precedence.
 
 
