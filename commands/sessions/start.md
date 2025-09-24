@@ -1,5 +1,5 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Bash(echo:*), Bash(date:*), Bash(git checkout:*)
+allowed-tools: Read, Write, Edit, Grep, Bash(echo:*), Bash(date:*), Bash(git checkout:*), Bash(cat:*)
 argument-hint: [session_goal]
 description: Prime the context and start a new development session to track work progress
 ---

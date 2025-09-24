@@ -1,5 +1,5 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Bash(echo:*), Bash(mkdir -p:*)
+allowed-tools: Read, Write, Edit, Grep, Bash(echo:*), Bash(mkdir -p:*), Bash(cat:*)
 description: End current development session
 ---
 
@@ -39,12 +39,14 @@ End the current development session by:
 		- SESSIONS
 		- LESSONS
 	- Append the label of the active session to the SESSIONS section
-	- Use the following to generate a comprehensive lessons-learned summary for the work done in this session:
-		* "Problems encountered and solutions" section from the session summary
-		* "Lessons learned" section from the session summary
-		* existing contents of `docs/LESSONS.md`
-	- Your new lessons-learned summary should include all problems encountered, how you solved them, and what lessons were learned, but don't duplicate lessons or information.
-	- Replace the contents of the `docs/LESSONS.md` section with the new lessons-learned summary
+	- Update the LESSONS section in `docs/LESSONS.md` as follows:
+		- Extract lessons from the current session (problems encountered + solutions + lessons learned)
+	  	- Compare against existing `docs/LESSONS.md` thoroughly to find similar/overlapping lessons
+		- Consolidate intelligently:
+			- If a new lesson is similar to an existing one → merge/enhance the existing lesson with new details
+			- If a new lesson is completely unique → add it to the appropriate category
+			- IMPORTANT: Don't just append new lessons - actually read and compare to avoid duplication
+		- Replace the LESSONS section with the consolidated version
 
 5. Note updates to `docs/README.md`:
 	- Check if `docs/README.md` exists
