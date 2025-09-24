@@ -1,4 +1,5 @@
 ---
+allowed-tools: Read, Write, Edit, Grep, Bash(git merge:*), Bash(git push:*), Bash(git branch -d:*)
 description: Merge the current working branch into main, push to origin, and cleanup
 ---
 

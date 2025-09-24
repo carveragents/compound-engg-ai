@@ -1,4 +1,5 @@
 ---
+allowed-tools: Read, Write, Edit, Grep, Bash(git commit:*)
 description: This command helps you create well-formatted commits with conventional commit messages and emoji.
 ---
 
