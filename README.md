@@ -1,4 +1,4 @@
-# CarverAgents Compound Engineering AI Framework
+# CarverAgents Compound Engineering Framework
 
 ## Overview
 
@@ -7,7 +7,7 @@ This framework transforms AI-coder development through **session-based workflows
 ## Core Philosophy
 
 ### 🤖 Intelligent Context Priming
-Automatically load AI models with precisely the right information from your codebase and documentation, eliminating manual context management.
+Automatically provide AI models with precisely the right information from your codebase and documentation, eliminating manual context management.
 
 ### 🎯 Learning-Driven Sessions
 Structure all development work into trackable sessions with clear goals and automatic progress documentation. Each session runs in its own Git branch - the system handles this automatically.
@@ -22,6 +22,8 @@ Capture problems, solutions, and insights from every session to build a growing 
 - **Session Isolation**: Each session runs in its own Git branch automatically
 - **Learning Capture**: Every challenge and solution becomes institutional knowledge
 - **Documentation Evolution**: Project understanding improves automatically over time
+
+*Note: The framework works out-of-the-box with Claude Code but can be easily modified to work with other AI coding agents.*
 
 ## Quick Start
 
@@ -84,6 +86,15 @@ Each session builds upon previous knowledge:
 - **Session 10**: Applies previous lessons, discovers advanced techniques
 - **Session 50**: Functions with deep institutional knowledge, avoids known pitfalls
 
+## Bonus: Git Utilities
+
+For convenience, the system includes intelligent Git commands:
+
+- **`/git:commit`** - Analyzes session context and code changes to generate conventional commit messages with emojis. Automatically splits large changes into logical atomic commits.
+- **`/git:merge-cleanup`** - Merges current session branch to main, pushes to origin, and cleans up the working branch.
+
+These integrate seamlessly with the session workflow but are entirely optional - the core value is in session management and continuous learning.
+
 ## Best Practices
 
 - **Specific Goals**: Start sessions with clear, measurable objectives
@@ -95,10 +106,16 @@ Each session builds upon previous knowledge:
 
 To improve this system, submit pull requests for better command instructions, new commands, session file formatting, and utilities for session analysis.
 
+## References & Inspiration
+
+This framework was inspired by and builds upon ideas from:
+
+- **[claude-sessions](https://github.com/iannuttall/claude-sessions)** - Session-based AI development tracking
+- **[My AI Had Already Fixed the Code Before I Saw It](https://every.to/source-code/my-ai-had-already-fixed-the-code-before-i-saw-it)** - Compound Engineering article by [Every.to](https://every.to) on AI-assisted development workflows and the future of coding collaboration
+- **[Building AI Agents that Actually Work](https://www.youtube.com/watch?v=Kf5-HWJPTIE)** - Principles for creating effective AI development workflows
+
 ## License
 
 MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
-
-*Every session is a learning opportunity. Every lesson learned accelerates future development.*
