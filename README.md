@@ -54,7 +54,12 @@ Clone the repo and copy the contents of `commands/` to your `.claude/` directory
 ## Session Lifecycle
 
 ```
-Session Start → Context Priming → Problem Encounter → Solution Discovery (human-in-the-loop) → Knowledge Capture → Lesson Integration
+Session Start
+  → Context Priming
+  → Development Work (human + AI)
+  → Updates (progress, git, decisions)
+  → Session Completion
+  → Knowledge Synthesis (lessons, docs index)
 ```
 
 ### 1. **Model Context Priming**
