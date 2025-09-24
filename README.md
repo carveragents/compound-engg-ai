@@ -39,7 +39,13 @@ Clone the repo and copy the contents of `commands/` to your `.claude/` directory
 #### 2. Develop with Continuous Learning
 *Develop as normal. Let AI generate code. It may encounter problems, solve as normal using human + AI mix.*
 
-#### 3. Complete with Knowledge Synthesis
+#### 3. Update and Capture Progress
+```bash
+/session:update
+```
+*Updates session progress, summarizes and captures development flow*
+
+#### 4. Complete with Knowledge Synthesis
 ```bash
 /session:end
 ```
