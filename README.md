@@ -60,6 +60,14 @@ For convenience, the system includes intelligent Git commands:
 
 These integrate seamlessly with the session workflow but are entirely optional - the core value is in session management and continuous learning.
 
+## Extending beyond Claude Code
+
+All logic lives in the **command contracts** (`commands/.../*.md`). To adapt:
+
+- Map `allowed tools` and filesystem paths to your agent/runtime.
+- Keep the **session file format** stable for portability.
+- If your agent can run shell steps, branch creation and `git status` work as-is.
+
 ## Best Practices
 
 - **Specific Goals**: Start sessions with clear, measurable objectives
