@@ -23,9 +23,9 @@ Capture problems, solutions, and insights from every session to build a growing 
 - **Learning Capture**: Every challenge and solution becomes institutional knowledge
 - **Documentation Evolution**: Project understanding improves automatically over time
 
-*Note: The framework works out-of-the-box with Claude Code but can be easily modified to work with other AI coding agents.*
-
 ## Quick Start
+
+*Note: The framework works out-of-the-box with Claude Code but can be easily modified to work with other AI coding agents.*
 
 #### 0. Setup
 Clone the repo and copy the contents of `commands/` to your `.claude/` directory.
@@ -50,52 +50,6 @@ Clone the repo and copy the contents of `commands/` to your `.claude/` directory
 /session:end
 ```
 *Updates lessons learned and prepares insights for future sessions*
-
-## Session Lifecycle
-
-```
-Session Start
-  → Context Priming
-  → Development Work (human + AI)
-  → Updates (progress, git, decisions)
-  → Session Completion
-  → Knowledge Synthesis (lessons, docs index)
-```
-
-### 1. **Model Context Priming**
-- Analyzes session goal to identify relevant domains
-- Discovers pertinent codebase files via session goal analysis
-- Loads relevant documentation and historical lessons
-- Creates isolated Git branch for the session
-- Primes model with optimal context
-
-### 2. **Continuous Progress Tracking**
-- Documents code changes, decisions, and challenges
-- Captures insights and lessons
-- Tracks Git status and task completion
-
-### 3. **Knowledge Synthesis & Storage**
-- Generates comprehensive session summary
-- Updates project/org memory with new insights and solutions
-- Enhances project documentation with improved understanding
-- Prepares knowledge for future session initialization
-
-## Key Benefits
-
-### 🚀 **Zero Manual Context Management**
-No more explaining project structure or copying code snippets. Session start handles everything automatically.
-
-### 🎯 **Optimal Model Performance**
-AI models start with precisely the right context - relevant code, applicable lessons, pertinent documentation.
-
-### ⚡ **Instant Productivity**
-Skip setup and dive into productive development. The model understands your codebase and remembers solutions.
-
-### 📚 **Compound Learning**
-Each session builds upon previous knowledge:
-- **Session 1**: Learns basic patterns
-- **Session 10**: Applies previous lessons, discovers advanced techniques
-- **Session 50**: Functions with deep institutional knowledge, avoids known pitfalls
 
 ## Bonus: Git Utilities
 
