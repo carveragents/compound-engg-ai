@@ -25,10 +25,13 @@ Capture problems, solutions, and insights from every session to build a growing 
 
 ## Quick Start
 
-*Note: The framework works out-of-the-box with Claude Code but can be easily modified to work with other AI coding agents.*
+> *Note: The framework works out-of-the-box with Claude Code but can be easily modified to work with other AI coding agents.*
 
-#### 0. Setup
-Clone the repo and copy the contents of `commands/` to your `.claude/` directory.
+#### 0. Installation
+```bash
+git clone https://github.com/carveragents/compound-engg-ai.git
+cp -R carveragents-compound-engg-ai/commands/* ~/.claude/
+```
 
 #### 1. Start with Intelligent Context Priming
 ```bash
@@ -36,7 +39,7 @@ Clone the repo and copy the contents of `commands/` to your `.claude/` directory
 ```
 *System analyzes your goal, loads relevant code and docs, surfaces applicable lessons, and creates an isolated branch `bugfix-memory-leak-data-processing` for development*
 
-#### 2. Develop with Continuous Learning
+#### 2. Develop
 *Develop as normal. Let AI generate code. It may encounter problems, solve as normal using human + AI mix.*
 
 #### 3. Update and Capture Progress
@@ -45,7 +48,7 @@ Clone the repo and copy the contents of `commands/` to your `.claude/` directory
 ```
 *Updates session progress, summarizes and captures development flow*
 
-#### 4. Complete with Knowledge Synthesis
+#### 4. End with Knowledge Capture
 ```bash
 /session:end
 ```
