@@ -30,7 +30,7 @@ Capture problems, solutions, and insights from every session to build a growing 
 #### 0. Installation
 ```bash
 git clone https://github.com/carveragents/compound-engg-ai.git
-cp -R carveragents-compound-engg-ai/commands/* ~/.claude/
+cp -R carveragents-compound-engg-ai/commands ~/.claude/
 ```
 
 #### 1. Start with Intelligent Context Priming
