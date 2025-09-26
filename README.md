@@ -92,6 +92,6 @@ This framework was inspired by and builds upon ideas from:
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+CC0-1.0 - see [LICENSE](LICENSE) file for details.
 
 ---
