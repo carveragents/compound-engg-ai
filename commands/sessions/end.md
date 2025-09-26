@@ -29,7 +29,7 @@ End the current development session by:
    - Dependencies added/removed
    - Configuration changes
    - Deployment steps taken
-   - Lessons learned
+   - Lessons learned including any reminders/tips/corrections provided by the user
    - What wasn't completed
    - Tips for future developers
 
@@ -40,7 +40,7 @@ End the current development session by:
 		- LESSONS
 	- Append the label of the active session to the SESSIONS section
 	- Update the LESSONS section in `docs/LESSONS.md` as follows:
-		- Extract lessons from the current session (problems encountered + solutions + lessons learned)
+		- Extract lessons from the current session (problems encountered + solutions + lessons learned, tips for future devs)
 	  	- Compare against existing `docs/LESSONS.md` thoroughly to find similar/overlapping lessons
 		- Consolidate intelligently:
 			- If a new lesson is similar to an existing one → merge/enhance the existing lesson with new details
@@ -48,18 +48,19 @@ End the current development session by:
 			- IMPORTANT: Don't just append new lessons - actually read and compare to avoid duplication
 		- Replace the LESSONS section with the consolidated version
 
-5. Note updates to `docs/README.md`:
+5. Note updates to `docs/README.md` as follows:
+	- IMPORTANT: the readme file should be a reference style document. the purpose of the readme will be to orient anyone working on the project to quickly find the info they need. the readme file should only act as a pointer to all the info that is available in documentation. the readme file should be complete enough that anyone who wants to work on the project should be able to find the jumping off points in the file. 	
 	- Check if `docs/README.md` exists
 	- If the readme file does not exist:
 		- read through all the documents in `docs/` and all subfolders
 		- create `docs/README.md` to reference all the documents you read
-		- the purpose of the readme will be to orient anyone working on the project to quickly find the info they need
-		- the readme  file should only act as a pointer to all the info that is available in our documentation
-  		- DO NOT replicate any info from the docs, the readme file should be a reference style document
-  		- the readme file should be complete enough that anyone who wants to work on the project should be able to find the jumping off points in the file.
+		- ensure that you stick to the purpose of the readme
 	- If the readme file already exists:
-		- check if there are any new or updated files under `docs/`
-		- if there are changes, update `docs/README.md` with these changes
+		- Update intelligently:
+			- check if there are any new or updated files under `docs/`
+			- if there are changes:
+				- find the relevant section and update it with the changes if the section exists
+				- if a relevant section does not exist, create one and update it with the changes
 		- ensure that you stick to the purpose of the readme
 
 6. Empty the `.claude/.sessions/.current-session` file (don't remove it, just clear its contents)
