@@ -89,9 +89,9 @@ This framework was inspired by and builds upon ideas from:
 - **[claude-sessions](https://github.com/iannuttall/claude-sessions)** - Session-based AI development tracking
 - **[My AI Had Already Fixed the Code Before I Saw It](https://every.to/source-code/my-ai-had-already-fixed-the-code-before-i-saw-it)** - Compound Engineering article by [Every.to](https://every.to) on AI-assisted development workflows and the future of coding collaboration
 - **[Building AI Agents that Actually Work](https://www.youtube.com/watch?v=Kf5-HWJPTIE)** - Principles for creating effective AI development workflows
+- **[tevm/commit](https://github.com/evmts/tevm-monorepo/blob/main/.claude/commands/commit.md)** - Claude code git commit slash command
 
 ## License
 
 MIT License - see [LICENSE](LICENSE) file for details.
 
----
