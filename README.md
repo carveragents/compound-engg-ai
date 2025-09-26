@@ -1,17 +1,18 @@
 <pre>
- ██████╗ █████╗ ██████╗ ██╗   ██╗███████╗██████╗  █████╗  ██████╗ ███████╗███╗   ██╗████████╗███████╗
-██╔════╝██╔══██╗██╔══██╗██║   ██║██╔════╝██╔══██╗██╔══██╗██╔════╝ ██╔════╝████╗  ██║╚══██╔══╝██╔════╝
-██║     ███████║██████╔╝██║   ██║█████╗  ██████╔╝███████║██║  ███╗█████╗  ██╔██╗ ██║   ██║   ███████╗
-██║     ██╔══██║██╔══██╗╗██╗ ██╔╝██╔══╝  ██╔══██╗██╔══██║██║   ██║██╔══╝  ██║╚██╗██║   ██║   ╚════██║
-╚██████╗██║  ██║██║  ██║ ╚████╔╝ ███████╗██║  ██║██║  ██║╚██████╔╝███████╗██║ ╚████║   ██║   ███████║
- ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝  ╚═══╝  ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝
+Carver Agents
+ 
+██████╗   ██╗       ██╗    ██╗   ██╗   ██╗
+██╔════╝  ██║       ██║    ██║   ╚██╗ ██╔╝
+█████╗    ██║       ██║    ██║    ╚████╔╝ 
+██╔══╝    ██║       ██║    ██║    ██╔██ █╗ 
+██║       ███████╗  ╚███████╔╝   ██╔╝  ██╗
+╚═╝       ╚══════╝   ╚══════╝    ╚═╝   ╚═╝
 
-                    🤖 Compound Engineering Framework for AI Agents 🤖
+Compound Engineering Framework for AI Agents
 </pre>
-
 ## 🌟 Overview 
 
-This framework transforms AI-coder development through **session-based workflows** with **intelligent context priming** and **continuous self-improvement**. Every development session automatically loads optimal model context and builds institutional knowledge that makes each subsequent session more effective.
+The Carver Agents Flux framework transforms AI-coder development through **session-based workflows** with **intelligent context priming** and **continuous self-improvement**. Every development session automatically loads the optimal model context and builds institutional knowledge that makes each subsequent session more effective.
 
 ## 🧠 Core Philosophy 
 
@@ -19,7 +20,7 @@ This framework transforms AI-coder development through **session-based workflows
 * Automatically provide AI models with precisely the right information from your codebase and documentation, eliminating manual context management.
 
 #### 🎯 Learning-Driven Sessions
-* Structure all development work into trackable sessions with clear goals and automatic progress documentation. Each session runs in its own Git branch - the system handles this automatically.
+* Structure all development work into trackable sessions with clear goals and automatic progress documentation. Each session runs in its own Git branch - the framework handles this automatically.
 
 #### 📈 Continuous Self-Improvement
 * Capture problems, solutions, and insights from every session to build a growing knowledge base that prevents repeated mistakes and accelerates future development.
@@ -46,7 +47,7 @@ cp -R carveragents-compound-engg-ai/commands ~/.claude/
 ```bash
  /session:start fix memory leak in data processing
 ```
-*System analyzes your goal, loads relevant code and docs, surfaces applicable lessons, and creates an isolated branch `bugfix-memory-leak-data-processing` for development*
+*Framework analyzes your goal, loads relevant code and docs, surfaces applicable lessons, and creates an isolated branch `bugfix-memory-leak-data-processing` for development*
 
 #### 2. Develop
 *Develop as normal. Let AI generate code. It may encounter problems, solve as normal using human + AI mix.*
@@ -65,7 +66,7 @@ cp -R carveragents-compound-engg-ai/commands ~/.claude/
 
 ## 🎁 Bonus: Git Utilities 
 
-For convenience, the system includes intelligent Git commands:
+For convenience, the framework includes intelligent Git commands:
 
 - **`/git:commit`** - Analyzes session context and code changes to generate conventional commit messages with emojis. Automatically splits large changes into logical atomic commits.
 - **`/git:merge-cleanup`** - Merges current session branch to main, pushes to origin, and cleans up the working branch.
@@ -85,11 +86,11 @@ All logic lives in the **command contracts** (`commands/.../*.md`). To adapt:
 - **Specific Goals**: Start sessions with clear, measurable objectives
 - **Regular Updates**: Document progress and discoveries as they happen
 - **Honest Recording**: Capture what didn't work as well as what did
-- **Review Lessons**: Let the system surface relevant insights from previous work
+- **Review Lessons**: Let the framework surface relevant insights from previous work
 
 ## 🤝 Contributing 
 
-To improve this system, submit pull requests for better command instructions, new commands, session file formatting, and utilities for session analysis.
+To improve this framework, submit pull requests for better command instructions, new commands, session file formatting, and utilities for session analysis.
 
 ## 📚 References & Inspiration 
 
