@@ -1,21 +1,21 @@
 # CarverAgents Compound Engineering Framework
 
-## Overview
+## 🌟 Overview 
 
 This framework transforms AI-coder development through **session-based workflows** with **intelligent context priming** and **continuous self-improvement**. Every development session automatically loads optimal model context and builds institutional knowledge that makes each subsequent session more effective.
 
-## Core Philosophy
+## 🧠 Core Philosophy 
 
-### 🤖 Intelligent Context Priming
-Automatically provide AI models with precisely the right information from your codebase and documentation, eliminating manual context management.
+#### 🤖 Intelligent Context Priming
+* Automatically provide AI models with precisely the right information from your codebase and documentation, eliminating manual context management.
 
-### 🎯 Learning-Driven Sessions
-Structure all development work into trackable sessions with clear goals and automatic progress documentation. Each session runs in its own Git branch - the system handles this automatically.
+#### 🎯 Learning-Driven Sessions
+* Structure all development work into trackable sessions with clear goals and automatic progress documentation. Each session runs in its own Git branch - the system handles this automatically.
 
-### 📈 Continuous Self-Improvement
-Capture problems, solutions, and insights from every session to build a growing knowledge base that prevents repeated mistakes and accelerates future development.
+#### 📈 Continuous Self-Improvement
+* Capture problems, solutions, and insights from every session to build a growing knowledge base that prevents repeated mistakes and accelerates future development.
 
-## Key Features
+## ✨ Key Features 
 
 - **Smart Context Loading**: Automatically primes AI model context with relevant files and lessons based on session goals
 - **Zero Manual Setup**: No need to explain project structure or copy-paste code snippets
@@ -23,7 +23,7 @@ Capture problems, solutions, and insights from every session to build a growing 
 - **Learning Capture**: Every challenge and solution becomes institutional knowledge
 - **Documentation Evolution**: Project understanding improves automatically over time
 
-## Quick Start
+## 🚀 Quick Start 
 
 > *Note: The framework works out-of-the-box with Claude Code but can be easily modified to work with other AI coding agents.*
 
@@ -54,7 +54,7 @@ cp -R carveragents-compound-engg-ai/commands ~/.claude/
 ```
 *Updates lessons learned and prepares insights for future sessions*
 
-## Bonus: Git Utilities
+## 🎁 Bonus: Git Utilities 
 
 For convenience, the system includes intelligent Git commands:
 
@@ -63,7 +63,7 @@ For convenience, the system includes intelligent Git commands:
 
 These integrate seamlessly with the session workflow but are entirely optional - the core value is in session management and continuous learning.
 
-## Extending beyond Claude Code
+## 🔧 Extending beyond Claude Code 
 
 All logic lives in the **command contracts** (`commands/.../*.md`). To adapt:
 
@@ -71,18 +71,18 @@ All logic lives in the **command contracts** (`commands/.../*.md`). To adapt:
 - Keep the **session file format** stable for portability.
 - If your agent can run shell steps, branch creation and `git status` work as-is.
 
-## Best Practices
+## 📋 Best Practices 
 
 - **Specific Goals**: Start sessions with clear, measurable objectives
 - **Regular Updates**: Document progress and discoveries as they happen
 - **Honest Recording**: Capture what didn't work as well as what did
 - **Review Lessons**: Let the system surface relevant insights from previous work
 
-## Contributing
+## 🤝 Contributing 
 
 To improve this system, submit pull requests for better command instructions, new commands, session file formatting, and utilities for session analysis.
 
-## References & Inspiration
+## 📚 References & Inspiration 
 
 This framework was inspired by and builds upon ideas from:
 
@@ -91,7 +91,7 @@ This framework was inspired by and builds upon ideas from:
 - **[Building AI Agents that Actually Work](https://www.youtube.com/watch?v=Kf5-HWJPTIE)** - Principles for creating effective AI development workflows
 - **[tevm/commit](https://github.com/evmts/tevm-monorepo/blob/main/.claude/commands/commit.md)** - Claude code git commit slash command
 
-## License
+## ⚖️ License 
 
 MIT License - see [LICENSE](LICENSE) file for details.
 
