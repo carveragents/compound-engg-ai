@@ -6,7 +6,7 @@
 ██║       ███████╗  ╚███████╔╝   ██╔╝  ██╗
 ╚═╝       ╚══════╝   ╚══════╝    ╚═╝   ╚═╝
 
- Compound Engineering Framework for AI Agents
+Compound Engineering Framework for AI Agents
 </pre>
 ## 🌟 Overview 
 
