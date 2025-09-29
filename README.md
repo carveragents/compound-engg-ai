@@ -1,6 +1,4 @@
 <pre>
-Carver Agents
- 
 ██████╗   ██╗       ██╗    ██╗   ██╗   ██╗
 ██╔════╝  ██║       ██║    ██║   ╚██╗ ██╔╝
 █████╗    ██║       ██║    ██║    ╚████╔╝ 
@@ -8,11 +6,11 @@ Carver Agents
 ██║       ███████╗  ╚███████╔╝   ██╔╝  ██╗
 ╚═╝       ╚══════╝   ╚══════╝    ╚═╝   ╚═╝
 
-Compound Engineering Framework for AI Agents
+ Compound Engineering Framework for AI Agents
 </pre>
 ## 🌟 Overview 
 
-The Carver Agents Flux framework transforms AI-coder development through **session-based workflows** with **intelligent context priming** and **continuous self-improvement**. Every development session automatically loads the optimal model context and builds institutional knowledge that makes each subsequent session more effective.
+The Flux framework transforms AI-coder development through **session-based workflows** with **intelligent context priming** and **continuous self-improvement**. Every development session automatically loads the optimal model context and builds institutional knowledge that makes each subsequent session more effective.
 
 ## 🧠 Core Philosophy 
 
@@ -39,8 +37,8 @@ The Carver Agents Flux framework transforms AI-coder development through **sessi
 
 #### 0. Installation
 ```bash
-git clone https://github.com/carveragents/compound-engg-ai.git
-cp -R carveragents-compound-engg-ai/commands ~/.claude/
+git clone https://github.com/carveragents/flux.git
+cp -R flux/commands ~/.claude/
 ```
 
 #### 1. Start with Intelligent Context Priming
