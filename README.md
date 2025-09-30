@@ -9,11 +9,11 @@
 Compound Engineering Framework for AI Agents
 </pre>
 
-[![FLUX Compound Engineering Framework](https://github.com/user-attachments/assets/3c624257-665e-4c8d-98e4-48377857d470)](https://www.youtube.com/watch?v=UAAv3mtX__U)
-
 ## 🌟 Overview 
 
 The Flux framework transforms AI-coder development through **session-based workflows** with **intelligent context priming** and **continuous self-improvement**. Every development session automatically loads the optimal model context and builds institutional knowledge that makes each subsequent session more effective.
+
+[![FLUX Compound Engineering Framework](https://github.com/user-attachments/assets/3c624257-665e-4c8d-98e4-48377857d470)](https://www.youtube.com/watch?v=UAAv3mtX__U)
 
 ## 🧠 Core Philosophy 
 
