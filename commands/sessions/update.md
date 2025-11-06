@@ -1,6 +1,7 @@
 ---
 allowed-tools: Read, Write, Edit, Grep, Bash(echo:*), Bash(cat:*)
 description: Update the current development session
+model: claude-haiku-4-5
 ---
 
 <!-- Some parts of this command are specific to Claude Code,

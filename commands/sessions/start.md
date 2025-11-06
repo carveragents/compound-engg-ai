@@ -2,6 +2,7 @@
 allowed-tools: Read, Write, Edit, Grep, Bash(echo:*), Bash(date:*), Bash(git checkout:*), Bash(cat:*), Bash(mkdir -p:*)
 argument-hint: [session_goal]
 description: Prime the context and start a new development session to track work progress
+model: claude-haiku-4-5
 ---
 
 <!-- Some parts of this command are specific to Claude Code,
@@ -54,7 +55,7 @@ Execute the `Start` section to start a new session
 
 ## Start
 
-Create a new git branch named `session_name` from main and switch to it
+Create a new git branch named `session_name` from the current checked out branch and switch to it.
 
 Generate a new `session_id` by running the bash date command. Use YYYY-MM-DD-HHMM as the format.
 
@@ -72,3 +73,5 @@ After creating the file, create or update `.claude/.sessions/.current-session` t
 Confirm the session has started and remind the user they can:
 - Update it with `/session:update`
 - End it with `/session:end`
+
+NEVER start any work on the session goal, wait till explicitly told to do so

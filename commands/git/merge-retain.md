@@ -1,6 +1,6 @@
 ---
-allowed-tools: Read, Write, Edit, Grep, Bash(git merge:*), Bash(git push:*), Bash(git branch -d:*)
-description: Merge the current work branch into target branch, push to origin, and cleanup work branch
+allowed-tools: Read, Write, Edit, Grep, Bash(git merge:*), Bash(git push:*), Bash(git checkout:*)
+description: Merge the current work branch into target branch, push to origin, back to work branch
 argument-hint: [target_branch]
 model: claude-haiku-4-5
 ---
@@ -16,11 +16,11 @@ If `target_branch` is not specified, then:
 Else:
 	`merge_target` = `target_branch`
 
-## Merge and Cleanup
+## Merge and Back
 
 0. If there are uncommitted changes on the current work branch, STOP and inform the user. Don't do anything else.
 
 Otherwise:
 1. Merge the current work branch into `merge_target`
 2. Push `merge_target` to origin
-3. Delete the current work branch
+3. Switch back to current work branch

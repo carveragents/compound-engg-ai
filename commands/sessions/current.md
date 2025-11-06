@@ -1,5 +1,6 @@
 ---
 description: Show current session status
+model: claude-haiku-4-5
 ---
 
 <!-- Some parts of this command are specific to Claude Code,

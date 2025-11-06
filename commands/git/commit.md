@@ -1,6 +1,7 @@
 ---
 allowed-tools: Read, Write, Edit, Grep, Bash(git commit:*)
 description: This command helps you create well-formatted commits with conventional commit messages and emoji.
+model: claude-haiku-4-5
 ---
 
 <!-- Some parts of this command are specific to Claude Code,
